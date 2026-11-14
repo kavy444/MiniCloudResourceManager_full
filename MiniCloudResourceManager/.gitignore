@@ -1,0 +1,28 @@
+# secrets - never commit
+.env
+*.env
+!.env.example
+!backend/.env.example
+
+# build output
+build/
+*.o
+*.obj
+*.exe
+*.pdb
+cloudsim
+cloudsim.exe
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# editor / OS
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+.DS_Store
+Thumbs.db

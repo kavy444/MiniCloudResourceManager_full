@@ -1,0 +1,8 @@
+# Runtime
+fastapi>=0.110,<1.0
+uvicorn>=0.29
+pydantic>=2.6,<3
+PyMySQL>=1.1
+cryptography>=42        # PyMySQL needs it for MySQL 8's caching_sha2_password login
+PyJWT>=2.8
+python-dotenv>=1.0
